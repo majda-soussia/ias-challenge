@@ -1,0 +1,71 @@
+.system-card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+  }
+  
+  .system-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 16px;
+  }
+  
+  .system-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .info-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .label {
+    color: #64748b;
+    font-size: 15px;
+  }
+  
+  .value {
+    font-weight: 700;
+    color: #0f172a;
+    font-size: 16px;
+  }
+  
+  .status-box {
+    margin-top: 10px;
+  }
+  
+  .status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+  }
+  
+  .status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  /* Status colors */
+  .status-green {
+    background-color: #22c55e;
+  }
+  
+  .status-yellow {
+    background-color: #eab308;
+  }
+  
+  .status-red {
+    background-color: #ef4444;
+  }
+  
+  .status-text {
+    font-weight: 600;
+    color: #0f172a;
+  }
+  

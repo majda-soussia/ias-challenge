@@ -1,0 +1,53 @@
+/* SAME card style as SystemStatusCard */
+.simple-card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+    height: 100%;
+  }
+  
+  .simple-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 16px;
+  }
+  
+  .simple-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .label {
+    color: #64748b;
+    font-size: 15px;
+  }
+  
+  .value {
+    font-weight: 700;
+    color: #0f172a;
+    font-size: 17px;
+  }
+  
+  /* Critical indicator */
+  .critical-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .critical-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ef4444; /* red */
+  }
+  

@@ -1,0 +1,40 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #0F172A;
+  }
+  
+  .sidebar-link {
+    color: #dadada !important; /* force gray */
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-decoration: none; /* remove underline if any */
+}
+  
+  .sidebar-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  .sidebar-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white !important;
+  }
+  /* Sidebar icons */
+.sidebar-icon {
+    width: 20px;        /* icon width */
+    height: 20px;       /* icon height */
+    object-fit: contain; /* maintain aspect ratio */
+    display: inline-block;
+  }
+/* Add some spacing between icon and label */
+.nav-link .sidebar-icon {
+    margin-right: 8px;
+  }
+  
+  /* Make sure vertical alignment is centered */
+  .nav-link .sidebar-icon {
+    vertical-align: middle;
+  }
+  
