@@ -2,6 +2,9 @@ import MainLayout from "../components/layout/MainLayout";
 import SystemStatusCard from "../components/dashboard/SystemStatusCard";
 import CyberAlertSummary from "../components/dashboard/CyberAlertSummary";
 import SafetyAlertSummary from "../components/dashboard/SafetyAlertSummary";
+import EnergyConsumptionCard from "../components/dashboard/EnergyConsumptionCard";
+import RecentEventsSummary from "../components/dashboard/RecentEventsSummary";
+
 const alerts = [
   { type: "Warning", message: "High temperature in Zone A" },
   { type: "Critical", message: "Fire detected in Zone B" },
@@ -23,9 +26,18 @@ export default function Dashboard() {
           <CyberAlertSummary total={18} critical={2} />
         </div>
         <div className="col-md-4">
-        <SafetyAlertSummary alerts={alerts} />
-        
-      </div>
+          <SafetyAlertSummary alerts={alerts} />
+        </div>
+        <div className="col-md-4">
+          <EnergyConsumptionCard
+            current="325 kW"
+            today="2.4 MWh"
+            status="Normal"
+          />
+        </div>
+        <div className="col-md-4">
+          <RecentEventsSummary totalEvents={42} lastEvent="5 min ago" />
+        </div>
       </div>
     </MainLayout>
   );

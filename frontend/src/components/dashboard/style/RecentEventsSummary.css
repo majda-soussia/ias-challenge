@@ -1,0 +1,60 @@
+/* Match all other dashboard cards */
+.simple-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+    border: 1px solid #e2e8f0;
+  }
+  
+  /* Title same as other cards */
+  .simple-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  .events-table {
+    width: 100%;
+    font-size: 16px;
+    border-collapse: collapse;
+    color: #0f172a;
+  }
+  
+  .events-table thead th {
+    text-align: left;
+    padding-bottom: 12px;
+    font-weight: 600;
+    color: #64748b;
+  }
+  
+  .events-table tbody tr {
+    border-bottom: 1px solid #f1f5f9;
+  }
+  
+  .events-table tbody tr:last-child {
+    border-bottom: none;
+  }
+  
+  .events-table td {
+    padding: 10px 0;
+  }
+  
+  /* Severity colors (same style as red & yellow dots) */
+  .sev-high {
+    color: #ef4444;
+    font-weight: 700;
+  }
+  
+  .sev-medium {
+    color: #f59e0b;
+    font-weight: 700;
+  }
+  
+  .sev-low {
+    color: #22c55e;
+    font-weight: 700;
+  }
+  

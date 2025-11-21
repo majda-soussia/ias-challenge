@@ -3,7 +3,7 @@ import "./style/Sidebar.css";
 
 export default function SidebarNavigation() {
     const sidebarItems = [
-        { label: "Dashboard", path: "/dashboard", icon: "/icon/dash.png" },
+        { label: "Dashboard", path: "/", icon: "/icon/dash.png" },
         { label: "Digital Twin", path: "/digital-twin", icon: "/icon/T.png"},
         { label: "Events", path: "/events", icon: "/icon/events.png" },
         { label: "Reports", path: "/reports", icon: "/icon/report.png" },
