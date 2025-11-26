@@ -1,0 +1,28 @@
+.topbar {
+    height: 70px;
+    background: #ececff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu-icon, .notif-icon {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  

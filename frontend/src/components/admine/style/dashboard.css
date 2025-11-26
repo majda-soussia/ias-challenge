@@ -1,0 +1,39 @@
+/* Dashboard Header */
+.dashboard-header h2 {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1f2041;
+  }
+  
+  .dashboard-header button {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.2s;
+  }
+  
+  .dashboard-header button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .search-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 12px;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
